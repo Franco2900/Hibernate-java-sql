@@ -1,0 +1,8 @@
+Preguntas :
+¿Por qué está protegido el constructor?
+	Para que la clase solo pueda ser instanciada por las subclases y por las clases dentro del mismo
+paquete
+
+¿Por qué el método getInstanciaEmpresa() necesita ser estático?
+	Porque se necesita comprobar que haya una sola instancia de la clase Empresa. En caso de que 
+no lo haya se crea una, y en caso de que ya haya una instancia se llama a la que se creó.
